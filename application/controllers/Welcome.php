@@ -20,6 +20,21 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->getPage('welcome_message');
+	}
+
+	public function home(){
+		$this->getPage('home');
+	}
+
+	/**
+	 * Fetches the desired page from the views folder and loads it unto the browser
+	 * @param $page the name/path of the page to load. This is a relative path
+	 * @param $data array to pass to each page section
+	 */
+	private function getPage($page, $data = array()){
+		$this->load->view('header', $data);
+		$this->load->view($page, $data);
+		$this->load->view('footer', $data);
 	}
 }
