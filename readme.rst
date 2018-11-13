@@ -1,29 +1,28 @@
 ###################
-What is CodeIgniter
+CodeIgniter Plus AdminLTE
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+CodeIgniter is the popular Application Development Framework we all love. This fork of the project
+seeks to integrate the popular UI theme, `AdminLTE <https://adminlte.io/>`_ . AdminLTE is a bootstrap
+theme that is growing among developers who seek a quick UI to build an admin interface for their projects.
+It brings a whole lot of cool features you can use to build a admin page or user page for your CodeIgniter
+apps. This project therefore integrate this theme making it easy for CodeIgniter developers to quickly
+leverage the functionalities of the theme in their projects. This project also adds more functionality
+to the theme, making it easy for developers to quickly build a full experience of an admin panel.
+
+If you have an extra UI theme, you need me to directly integrate in your CodeIgniter app, shoot me an email
+at `Larry Akah <larryakah@gmail.com>`_
 
 *******************
 Release Information
 *******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+This repository is still only starting out without any stable release yet, but already with some substantial
+content.
 
 **************************
 Changelog and New Features
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
 *******************
 Server Requirements
@@ -39,8 +38,8 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+If you plan to use this project, then it means you are a CodeIgniter developer. So installation is pretty easy.
+Install this project as if you were installing any normal CodeIgniter project. If however, you still need help.
 
 *******
 License
@@ -53,14 +52,9 @@ agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/so
 Resources
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
+-  `CodeIgniter User Guide <https://codeigniter.com/docs>`_
 -  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <https://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+-  `Admin LTE Doc <https://adminlte.io/docs/2.4/layout>`_
 
 ***************
 Acknowledgement
