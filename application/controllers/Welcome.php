@@ -27,6 +27,10 @@ class Welcome extends CI_Controller {
 		$this->getPage('home');
 	}
 
+	public function topnav(){
+		$this->getPage('topnav');
+	}
+
 	/**
 	 * Fetches the desired page from the views folder and loads it unto the browser
 	 * @param $page the name/path of the page to load. This is a relative path
